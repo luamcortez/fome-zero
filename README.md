@@ -20,5 +20,5 @@ Basicamente, você precisa apenas instalar o [XAMPP](https://www.apachefriends.o
 
 * [HTMl5/CSS3](https://www.w3schools.com/)
 * [PHP7](https://secure.php.net/manual/en/)
-* [Workbench MySQL] (https://www.mysql.com/products/workbench/)
+* [Workbench MySQL](https://www.mysql.com/products/workbench/)
 * [Git SCM](https://git-scm.com/)
