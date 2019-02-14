@@ -1,5 +1,4 @@
-![Fome Zero Banner]
-(https://raw.githubusercontent.com/luamcortez/fome-zero/master/documentacao/BannerReadme.jpg)
+![Fome Zero Banner](https://raw.githubusercontent.com/luamcortez/fome-zero/master/documentacao/BannerReadme.jpg)
 
 Buscamos facilitar e desburocratizar a forma como você pede comida.
 
