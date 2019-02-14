@@ -1,5 +1,5 @@
 ![Fome Zero Banner](https://raw.githubusercontent.com/luamcortez/fome-zero/master/documentacao/BannerReadme.jpg)
-# O que buscamos?
+# O QUE BUSCAMOS?
 
 Facilitar e desburocratizar a forma como você pede comida.
 
