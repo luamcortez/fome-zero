@@ -1,6 +1,7 @@
 ![Fome Zero Banner](https://raw.githubusercontent.com/luamcortez/fome-zero/master/documentacao/BannerReadme.jpg)
+#O que buscamos?
 
-Buscamos facilitar e desburocratizar a forma como você pede comida.
+Facilitar e desburocratizar a forma como você pede comida.
 
 ## COMO RODAR NA SUA MÁQUINA
 
@@ -10,7 +11,7 @@ O Fome Zero precisa de um servidor web e um banco de dados local:
 Apache/PHP7 e MySQL
 ```
 
-Basicamente, você precisa apenas instalar o [XAMPP](https://www.apachefriends.org/xampp-files/7.3.1/xampp-win32-7.3.1-0-VC15-installer.exe) e clonar nosso repositório para o htdocs.
+Basicamente, você precisa instalar o [XAMPP](https://www.apachefriends.org/xampp-files/7.3.1/xampp-win32-7.3.1-0-VC15-installer.exe) e clonar nosso repositório para o htdocs.
 
 ## DESENVOLVIDO COM
 
