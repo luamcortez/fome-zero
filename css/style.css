@@ -1,6 +1,8 @@
-html {
-	background-color:#ac4500;
+html, body {
+  background-color:#ac4500;
+  height: 100%;
   font-family: 'Roboto';
+  margin: 0 0;
 }
 .retangulo{
 background-color: #cb641f;
@@ -58,9 +60,17 @@ button { border:none; }
 input, button, submit { margin-top: 25px; } 
 
 .logo_login{
-	width:65%;
+	width: 65%;
 }
 
 body > div > form#menu{
   margin-top: 35px;
+}
+
+.fundo-cardapio {
+  background-image: url("../documentacao/assets/foto-cardapio.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
