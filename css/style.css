@@ -1,5 +1,6 @@
 html {
 	background-color:#ac4500;
+  font-family: 'Roboto';
 }
 .retangulo{
 background-color: #cb641f;
@@ -35,10 +36,16 @@ input:focus {
     width: 60%;
     border-radius: 15px;
     padding: 12px 0;
-    height: 42px;
+    height: 30px;
     font-weight: 600;
     font-size: 24px;
-    line-height: 1px;
+    line-height: 1.2em;
+    text-decoration: none;
+    margin: 10px 0px 15px 0px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;    
 }
 
 ::placeholder { 
@@ -52,4 +59,8 @@ input, button, submit { margin-top: 25px; }
 
 .logo_login{
 	width:65%;
+}
+
+body > div > form#menu{
+  margin-top: 35px;
 }
