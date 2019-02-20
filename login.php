@@ -15,7 +15,7 @@
 		<form name="login" method="GET">
 			<input type="text" placeholder="Usuário">
 			<input type="password" placeholder="Senha">	
-			<button type="submit" name="enviar" class="button_login">ENTRAR</button>		
+			<button style="height: 50px;" type="submit" name="enviar" class="button_login">ENTRAR</button>		
 		</form>
 	</div> 
  </body>
