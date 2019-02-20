@@ -12,6 +12,31 @@
 		</style>
 </head>
  <body class="fundo-cardapio">
-
- </body>
+	<div class="container">
+		<div class="logo-cardapio"></div>
+		<div class="container-categoria">
+			<div class="button-categoria"></div>
+			<div class="button-categoria"></div>
+			<div class="button-categoria"></div>
+			<div class="button-categoria"></div>
+			<div class="button-categoria"></div>
+			<div class="button-categoria"></div>
+			<div class="button-categoria"></div>
+		</div>
+		<div class="container-itens">
+			<div class="item">
+				<div class="item-foto"></div>
+			</div>
+			<div class="item">
+				<div class="item-foto"></div>
+			</div>
+			<div class="item">
+				<div class="item-foto"></div>
+			</div>
+			<div class="item">
+				<div class="item-foto"></div>
+			</div>
+		</div>
+	</div>
+</body>
  </html>
