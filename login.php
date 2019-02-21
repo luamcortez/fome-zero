@@ -1,6 +1,6 @@
-<?php
-
- ?>
+<?php 
+	session_start();
+?>
 
  <!DOCTYPE html>
  <html>
@@ -12,9 +12,9 @@
  <body>
 	<div class="retangulo">
 		<img src="images/logo.png" class="logo_login"/>
-		<form name="login" method="GET">
-			<input type="text" placeholder="Usuário">
-			<input type="password" placeholder="Senha">	
+		<form name="login" method="POST" action="ope.php">
+			<input type="text" placeholder="Usuário" name="nome">
+			<input type="password" placeholder="Senha" name="senha">	
 			<button style="height: 50px;" type="submit" name="enviar" class="button_login">ENTRAR</button>		
 		</form>
 	</div> 
