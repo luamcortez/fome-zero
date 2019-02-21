@@ -24,17 +24,32 @@
 			<div class="button-categoria"></div>
 		</div>
 		<div class="container-itens">
-			<div class="item">
-				<div class="item-foto"></div>
-			</div>
-			<div class="item">
-				<div class="item-foto"></div>
-			</div>
-			<div class="item">
-				<div class="item-foto"></div>
-			</div>
-			<div class="item">
-				<div class="item-foto"></div>
+			<div class="conteudo-itens">
+				<div class="item">
+					<div class="item-foto"></div>
+					<h2>Item 1</h2>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
+				<div class="item">
+					<div class="item-foto"></div>
+				</div>
 			</div>
 		</div>
 	</div>
