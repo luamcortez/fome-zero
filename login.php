@@ -1,5 +1,10 @@
 <?php 
-	session_start();
+	require_once("config.php");
+
+	$sql = new Sql();
+
+	$sql->select("SELECT login FROM fz");
+
 ?>
 
  <!DOCTYPE html>
