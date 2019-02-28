@@ -80,6 +80,10 @@ class Usuario {
 			$this->setLogin($row['usuario']);
 			$this->setSenha($row['senha']);
 
+			//$_SESSION['user_id'] = $this->idusuario; //Se logar, seta a sessao pro ID do usuario
+			
+			$this->redirect($this->usuario);//chama funcao pra redirecionar
+
 		} else {
 
 			throw new Exception("Login e/ou senha inválidos.");			
@@ -98,9 +102,33 @@ class Usuario {
 		);
 	}
 	
+	public function redirect ($login){ //METODO QUE REDIRECIONA O USUARIO PARA A DEVIDA PAGINA
+		switch($login){
+			case 'admin':
+				header("Location: index.php");
+				break;
+			case 'chef':
+				header("Location: fila_pedidos.php");
+				break;
+			default:
+				header("Location: cardapio.php");
+				break;
+		}
+	}
 
+/*	public function verSession (){ //verifica se sessão ja existe
+		if ( isset( $_SESSION['user_id'] ) ) {
+			echo $_SESSION['user_id'];
+		} else {
+	   		// Redirect them to the login page
+	    	header("Location: login.php");
+		}
+	}*/
 
 }
+
+
+
 
 
 ?>
