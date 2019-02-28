@@ -5,6 +5,8 @@ class Usuario {
 	private $usuario;
 	private $senha;
 
+	/* /GET AND SETTERS/ */
+
 	public function getIdusuario(){
 		return $this->idusuario;
 	}
@@ -29,7 +31,9 @@ class Usuario {
 		$this->senha = $senha;
 	}
 
-	public function loadById($id){
+	/* /GET AND SETTERS/ */
+
+	public function loadById($id){ //METÓDO QUE BUSCA 1 USUARIO BASEADO NO ID
 
 		$sql = new Sql();
 
@@ -47,19 +51,19 @@ class Usuario {
 
 	}
 
-	public static function getList(){
+	public static function getList(){  //METÓDO QUE RETORNA TODOS USUARIOS NO BANCO
 		$sql = new Sql();
 		return $sql->select("SELECT * FROM login ORDER BY id");
 	}
 
-	public static function search($login){
+	public static function search($login){ //METÓDO QUE BUSCA USUARIOS NO BANCO (BASEADO NA STRING)
 		$sql = new Sql();
 		return $sql->select("SELECT * FROM login WHERE usuario LIKE :SEARCH ORDER BY id", array(
 			':SEARCH'=>"%".$login."%"
 		));
 	}
 
-	public function auth($login, $senha){
+	public function auth($login, $senha){ //METÓDO QUE AUTENTICA O USUARIO E A SENHA
 		$sql = new Sql();
 
 		$results = $sql->select("SELECT * FROM login WHERE usuario = :LOGIN AND senha = :SENHA", 
@@ -84,7 +88,7 @@ class Usuario {
 
 	}
 
-	public function __toString (){
+	public function __toString (){ //METÓDO QUE PADRONIZA O ECHO DA CLASSE
 		return json_encode(
 			array(
 			"idusuario"=>$this->getIdusuario(),
