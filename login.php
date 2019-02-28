@@ -1,5 +1,5 @@
 <?php 
-
+	// session_start();
 	require_once("config.php");
 
 	//$sql = new Sql();
@@ -19,6 +19,16 @@
 	//$usuario = new Usuario();
 	//$usuario->auth("lucas", "1234");
 	//echo $usuario;
+	
+	if (isset($_POST["login"]) && isset($_POST["senha"])) {
+
+		$authlogin = $_POST["login"];
+		$authsenha = $_POST["senha"];
+
+		$usuario = new Usuario();
+		$usuario->auth($authlogin, $authsenha);
+		echo $usuario;
+	}
 
 ?>
 
@@ -32,7 +42,7 @@
  <body>
 	<div class="retangulo">
 		<img src="images/logo.png" class="logo_login"/>
-		<form name="login" method="POST" action="">
+		<form name="login" method="POST">
 			<input type="text" placeholder="Usuário" name="login">
 			<input type="password" placeholder="Senha" name="senha">	
 			<button style="height: 50px;" type="submit" name="enviar" class="button_login">ENTRAR</button>		

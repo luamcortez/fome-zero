@@ -1,5 +1,11 @@
 <?php
+
 	require_once("config.php");
+/*	session_start();
+
+	$usuario = new Usuario();
+	$usuario->verSession();*/
+
  ?>
  
   <!DOCTYPE html>
