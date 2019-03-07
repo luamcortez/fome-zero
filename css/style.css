@@ -77,6 +77,9 @@ body > div > form#menu{
   position: relative;
 }
 
+/*O quadrado que contém tudo*/
+button:focus {outline:0;}
+
 .container{
   position: absolute;
   background-color: rgba(240, 248, 255, 0.15);
@@ -97,9 +100,9 @@ body > div > form#menu{
   height: 140px;
 }
 
-
-
+/*Seção superior do Cardápio*/
 .button-pedidos{
+  margin-top: 0;
   position: absolute;
   background-color:#C13B00;
   border-style: solid;
@@ -108,7 +111,7 @@ body > div > form#menu{
   border-radius: 30px;
   height: 50px;
   width: 200px;
-  top: 10px;
+  top: 0;
   right: 40px;
 }
 
@@ -130,7 +133,7 @@ body > div > form#menu{
   font-size: 1.4em;
 }
 
-
+/* Seção Lateral (esquerda) do Cardápio) */
 .container-categoria {
   position: absolute;
   width: 280px;
@@ -161,9 +164,11 @@ body > div > form#menu{
 
 }
 
-.button-categoria:active{
+.button-categoria-active{
   background-color: #FFAA00;
 }
+
+/* Seção central do Cardápio */
 .container-itens {
   position: absolute;
   top: 70px;
@@ -214,6 +219,7 @@ body > div > form#menu{
 }
 
 .item-button{
+  margin-top: 0;
   position: absolute;
   background-color: #AC4500;
   width: 130px;
@@ -221,7 +227,7 @@ body > div > form#menu{
   border-style: solid;
   border-width: 1px;
   border-color: #540C0C;
-  height: 28px;
+  height: 30px;
   right: 0;
   display: block;  
 }
@@ -236,7 +242,7 @@ body > div > form#menu{
   left: 15px;
   color: white;
   font-weight: 800;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 .circulo{
@@ -252,7 +258,6 @@ body > div > form#menu{
 .circulo a{
   padding-block-start: 0;
   padding-block-end: 0;
-  position: absolute;
   font-family: 'Crimson Text', serif;
   font-size: 1.2em;
   font-weight: 800;

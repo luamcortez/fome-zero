@@ -14,11 +14,13 @@
  <body class="fundo-cardapio">
 	<div class="container">
 		<div class="logo-cardapio"></div>
-		<div class="button-pedidos">
+
+		<button class="button-pedidos">
 			<img class="icone-recibo" src="documentacao/assets/icone-recibo.png" alt="">
 			<a>Pedidos</a>
 			<div class="circulo-numero"><p>15</p></div>
-		</div>
+		</button>
+
 		<div class="container-categoria">
 			<div class="conteudo-categorias">
 				<button class="button-categoria">Categoria 1</button>
@@ -36,10 +38,10 @@
 
 				<div class="item">
 					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
+					<button class="item-button">
+						<p>R$ 20,00</p>
 						<div class="circulo"><a>+</a></div>
-					</div>
+					</button>
 					<p class="item-titulo">Título</p>
 					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -48,11 +50,11 @@
 				</div>
 
 				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
+					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
+					<button class="item-button">
+						<p>R$ 20,00</p>
 						<div class="circulo"><a>+</a></div>
-					</div>
+					</button>
 					<p class="item-titulo">Título</p>
 					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -61,11 +63,11 @@
 				</div>
 
 				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
+					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
+					<button class="item-button">
+						<p>R$ 20,00</p>
 						<div class="circulo"><a>+</a></div>
-					</div>
+					</button>
 					<p class="item-titulo">Título</p>
 					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -74,11 +76,11 @@
 				</div>
 
 				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
+					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
+					<button class="item-button">
+						<p>R$ 20,00</p>
 						<div class="circulo"><a>+</a></div>
-					</div>
+					</button>
 					<p class="item-titulo">Título</p>
 					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -87,11 +89,11 @@
 				</div>
 
 				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
+					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
+					<button class="item-button">
+						<p>R$ 20,00</p>
 						<div class="circulo"><a>+</a></div>
-					</div>
+					</button>
 					<p class="item-titulo">Título</p>
 					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -100,115 +102,11 @@
 				</div>
 
 				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
+					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
+					<button class="item-button">
+						<p>R$ 20,00</p>
 						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-				<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<div class="item-button">
-						<p>R$20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</div>
+					</button>
 					<p class="item-titulo">Título</p>
 					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -221,10 +119,14 @@
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<!-- <script type="text/javascript">
-		$(document).on('click','button-categoria', function()){
-			$(this).addClass('active')
-		}
-	</script> -->
+	<script>
+	$(document).ready(function() {
+		$(".button-categoria").click(function () {
+			$(this).addClass("button-categoria-active");
+			$(".button-categoria").not(this).removeClass("button-categoria-active");
+		});
+
+	});
+	</script>
 </body>
  </html>
