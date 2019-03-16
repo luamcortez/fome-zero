@@ -9,14 +9,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=2.0">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
  <body class="fundo-cardapio">
 	<div class="container">
 		<div class="logo-cardapio"></div>
 		<div class="button-pedidos">
 			<img class="icone-recibo" src="documentacao/assets/icone-recibo.png" alt="">
-			<a>Pedidos</a>
+			<a href="#openModal">Pedidos</a>
 			<div class="circulo-numero"><p>15</p></div>
 		</div>
 		<div class="container-categoria">
@@ -226,5 +226,16 @@
 			$(this).addClass('active')
 		}
 	</script> -->
+
+	<div id="openModal" class="modalDialog">
+		<div>
+			<div></div>		
+			<a href="" title="Voltar" class="voltar"><i class="fa fa-arrow-left" aria-hidden="true"></i>Voltar</a>
+			<p class="valortotal">Total: R$ 89.90 <?php ?></p>
+			<a href="" title="Finalizar" class="finalizar"><i class="fa fa-cutlery" aria-hidden="true"></i>Finalizar Pedido</a>
+		</div>
+		
+	</div>
+
 </body>
  </html>
