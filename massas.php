@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html style="background-color: transparent">
 <head>
-    <title>Especialidades</title>
+    <title>Massas</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=2.0">
