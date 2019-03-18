@@ -2,7 +2,7 @@
 	require_once("config.php");
  ?>
 
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head> 	
  	<title>Cardápio</title>
@@ -23,108 +23,29 @@
 
 		<div class="container-categoria">
 			<div class="conteudo-categorias">
-				<button class="button-categoria">Categoria 1</button>
-				<button class="button-categoria">Categoria 2</button>
-				<button class="button-categoria">Categoria 3</button>
-				<button class="button-categoria">Categoria 4</button>
-				<button class="button-categoria">Categoria 5</button>
-				<button class="button-categoria">Categoria 6</button>
-				<button class="button-categoria">Categoria 7</button>
-				<button class="button-categoria">Categoria 8</button>
+				<button type=button class="button-categoria button-categoria-active" data-src="especialidades.php">Especialidades</button>
+				<button type=button class="button-categoria" data-src="carnes.php">Carnes</button>
+				<button type=button class="button-categoria" data-src="massas.php">Massas</button>
+				<button type=button class="button-categoria" data-src="acompanhamentos.php">Acompanhamentos</button>
+				<button type=button class="button-categoria" data-src="frutos_do_mar.php"> Frutos do Mar</button>
+				<button type=button class="button-categoria" data-src="sobremesas.php">Sobremesas</button>
+				<button type=button class="button-categoria" data-src="bebidas.php">Bebidas</button>
 			</div>
 		</div>
-		<div class="container-itens">
-			<div class="conteudo-itens">
 
-				<div class="item">
-					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<button class="item-button">
-						<p>R$ 20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</button>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
+		<iframe class="container-itens" src="especialidades.php" name="ifrm" id="ifrm">
+		</iframe>
 
-				<div class="item">
-					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<button class="item-button">
-						<p>R$ 20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</button>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<button class="item-button">
-						<p>R$ 20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</button>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<button class="item-button">
-						<p>R$ 20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</button>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<button class="item-button">
-						<p>R$ 20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</button>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				<div class="item">
-					<img class="item-foto" src="https://source.unsplash.com/featured/?food">
-					<button class="item-button">
-						<p>R$ 20,00</p>
-						<div class="circulo"><a>+</a></div>
-					</button>
-					<p class="item-titulo">Título</p>
-					<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
-						Nunc pulvinar tortor ut enim sodales accumsan.
-					</div>
-				</div>
-
-				
-			</div>
-		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script>
 	$(document).ready(function() {
 		$(".button-categoria").click(function () {
 			$(this).addClass("button-categoria-active");
+			$("#ifrm").attr("src", $(this).data('src'));
 			$(".button-categoria").not(this).removeClass("button-categoria-active");
 		});
+
 
 	});
 	</script>
