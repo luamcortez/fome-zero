@@ -203,7 +203,7 @@ button:focus {outline:0;}
   color:white;
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 800;
 }
 
@@ -216,58 +216,77 @@ button:focus {outline:0;}
   right: 50px;
   margin-block-start: 0;
   margin-block-end: 0;
-  font-size: 1.1em;
+  font-size: 1em;
   font-style: italic;
   line-height: 1em;
   color: white;
 }
 
-.item-button{
-  margin-top: 0;
+.item-preco{
   position: absolute;
   background-color: #AC4500;
-  width: 130px;
+  width: 90px;
   border-radius: 30px;
   border-style: solid;
   border-width: 1px;
   border-color: #540C0C;
   height: 30px;
-  right: 0;
+  top: 5px;
+  right: 5px;
   display: block;  
 }
 
 
-.item-button p{
+.item-preco p{
   margin-block-start: 0;
   margin-block-end: 0;
   font-family: 'Crimson Text', serif;
   position: absolute;
-  top: 1px;
-  left: 15px;
+  top: 3px;
+  left: 10px;
   color: white;
   font-weight: 800;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
-.circulo{
-  height: 23px;
-  width: 23px;
+.circulo-mais{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   position: absolute;
-  top: 3px;
-  right: 10px;
-  background-color: white;
-}
-
-.circulo a{
-  padding-block-start: 0;
-  padding-block-end: 0;
+  top: 40px;
+  right: 3px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 2px;
+  border-color:  rgb(78, 146, 14);
+  text-align: center;
   font-family: 'Crimson Text', serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 800;
   color:#540C0C;
-  bottom: 0px;
-  right: 6px;
+}
+
+.circulo-menos{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 3px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 2px;
+  border-color:  rgb(226, 12, 12);
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.4em;
+  font-weight: 800;
+  color:#540C0C;
 }
 
 .circulo-numero{
@@ -285,6 +304,8 @@ button:focus {outline:0;}
   top: 8px;
   right: 10px;
 }
+
+
 
 .circulo-numero p{
   padding-block-start: 0;

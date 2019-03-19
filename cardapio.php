@@ -1,5 +1,7 @@
 <?php
 	require_once("config.php");
+	$item_qtd = 0;
+	
  ?>
 
 <!DOCTYPE html>
@@ -18,7 +20,7 @@
 		<button class="button-pedidos">
 			<img class="icone-recibo" src="documentacao/assets/icone-recibo.png" alt="">
 			<a>Pedidos</a>
-			<div class="circulo-numero"><p>15</p></div>
+			<div class="circulo-numero"><p><?php echo $item_qtd ?></p></div>
 		</button>
 
 		<div class="container-categoria">
