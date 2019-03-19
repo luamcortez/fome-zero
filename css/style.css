@@ -336,3 +336,87 @@ button:focus {outline:0;}
   background: rgb(85, 63, 55);
   border-radius: 5px;
 }
+
+/*Coisas do Modal do Cardápio*/
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 650px;
+  height: 450px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.finalizar {
+  float: right;
+  background-color: #1CC221!important;
+  color: white;
+  width: 215px;
+  border-radius: 26px;
+  padding: 11px 0;
+  height: 23px;
+  font-size: 21px;
+  line-height: 1.2em;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.voltar {
+  background-color: #C13B00!important;
+  color: white;
+  width: 215px;
+  border-radius: 26px;
+  padding: 11px 0;
+  height: 23px;
+  font-size: 21px;
+  line-height: 1.2em;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: center;
+  display: inline-block;  
+}
+
+
+.valortotal{
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  margin: 5px 0px;
+}
+
+.fa{
+  margin-right: 5px; 
+}

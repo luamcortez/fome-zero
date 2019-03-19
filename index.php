@@ -20,8 +20,8 @@
 	<div class="retangulo">
 		<img src="images/logo.png" class="logo_login"/>
 		<form id="menu" name="login" method="GET">
-			<a class="button_login" href="fila_pedidos.html">FILA DE PEDIDOS</a>
-			<a class="button_login" href="cliente.html">CLIENTE</a>	
+			<a class="button_login" href="tela_pedidos.php">FILA DE PEDIDOS</a>
+			<a class="button_login" href="cardapio.php">CARDÁPIO</a>	
 			<a class="button_login" href="editar_cardapio.html">EDITAR CARDAPIO</a>		
 		</form>
 	</div> 
