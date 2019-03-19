@@ -16,10 +16,9 @@
 
 		<div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -29,10 +28,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -42,10 +40,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -55,10 +52,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -68,10 +64,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -81,10 +76,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -94,10 +88,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.
@@ -107,10 +100,9 @@
 
         <div class="item">
 			<img class="item-foto" src="images\img-massas.jpg">
-			<button class="item-button">
-				<p>R$ 20,00</p>
-				<div class="circulo"><a>+</a></div>
-			</button>
+			<div class="item-preco"><p>R$ 20,00</p></div>
+			<button class="circulo-mais">+</button>
+			<button class="circulo-menos">-</button>
 			<p class="item-titulo">Massa</p>
 			<div class="item-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Sed id ipsum mi. Aliquam in arcu eleifend, venenatis leo fermentum, egestas orci.

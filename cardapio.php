@@ -9,7 +9,7 @@
  <head> 	
  	<title>Cardápio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/csCs?family=Crimson+Text" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=2.0">
 
 </head>
