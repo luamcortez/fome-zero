@@ -3,8 +3,8 @@
     include 'dbh.php';
 
     $id = $_POST["tipo_idtipo"];
-
-    $sql = "SELECT * FROM produto WHERE tipo_idtipo = $id";
+	
+    $sql = "SELECT * FROM produto WHERE tipo_idtipo=".$id.";";
     $result = mysqli_query($conn, $sql);
     $dados = array();
 

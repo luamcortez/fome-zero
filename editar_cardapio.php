@@ -22,11 +22,11 @@
  
 
 	<script>
-		var tipo_idtipo = '1';
+		//var tipo_idtipo = '1';
 		function puxa_dados(tipo_idetipo){
 
-			var id = tipo_idtipo;
-			$.post("carregar_itens.php",{ tipo_idtipo: id })
+			
+			$.post("carregar_itens.php",{ tipo_idtipo: tipo_idetipo })
 				.done(function(dadosJSON){
 					var dados = JSON.parse(dadosJSON);
 					var html = '';
