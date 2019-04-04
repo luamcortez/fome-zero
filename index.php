@@ -22,7 +22,7 @@
 		<form id="menu" name="login" method="GET">
 			<a class="button_login" href="tela_pedidos.php">FILA DE PEDIDOS</a>
 			<a class="button_login" href="cardapio.php">CARDÁPIO</a>	
-			<a class="button_login" href="editar_cardapio.html">EDITAR CARDAPIO</a>		
+			<a class="button_login" href="editar_cardapio.php">EDITAR CARDAPIO</a>		
 		</form>
 	</div> 
  </body>
