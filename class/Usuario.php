@@ -108,7 +108,7 @@ class Usuario {
 				header("Location: index.php");
 				break;
 			case 'chef':
-				header("Location: fila_pedidos.php");
+				header("Location: tela_pedidos.php");
 				break;
 			default:
 				header("Location: cardapio.php");
