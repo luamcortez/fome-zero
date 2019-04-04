@@ -452,6 +452,37 @@ button:focus {outline:0;}
   width: 450px;
 }
 
+#openModalItem{
+  -webkit-transition: opacity 150ms ease-in;
+  -moz-transition: opacity 150ms ease-in;
+  transition: opacity 150ms ease-in;
+}
+
+#openModalItem > div {
+  position: relative;
+  background: #EBDACA;
+  width: 600px;
+  height: 500px;
+}
+
+#openModalItem > div > form > #item, #valor, #descricao, #imagem{
+  padding: 14px 16px 10px;
+  background-color: white;
+  caret-color: black;
+  border-color: grey;
+  border-width:2px;
+  color: black;
+  font-weight: 800;
+  font-size: 1.2em;
+  width: 450px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 ::placeholder{
   color: rgba(84, 12, 12, 0.3);
   opacity: 1;

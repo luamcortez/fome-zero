@@ -150,6 +150,7 @@
 	<div id="openModalCategoria" class="modalDialog">
 		<div>
 			<form method="post" id="addCategoria" action="salvar_categoria.php">
+				<a style="position: relative; font-size: 2em;font-weight: 800; left: 55px;">Adicionar Categoria</a>
 				<input type="text" name="categoria" id="categoria" autocomplete="off" placeholder="Digite uma nova categoria">
 				<a href="#" title="voltar" class="voltar" style="left: 90px"><i class="fa fa-arrow-left" aria-hidden="true"></i>Voltar</a>
 				<input type="button" value="Adicionar" id="adicionar">
@@ -181,32 +182,20 @@
 
 	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- MODAL PARA ADICIONAR ITEM -->
 	<div id="openModalItem" class="modalDialog">
 		<div>
-			
-			<form>
-				<input name="" type="text">
+			<form method="post" id="addItem" action="salvar_item.php" enctype="multipart/form-data">
+				<a style="position: relative; font-size: 2em;font-weight: 800; left: 55px;">Adicionar Item</a>
+				<input type="text" name="item" id="item" autocomplete="off" placeholder="Digite o nome do item">
+				<input type="number" step="any" name="valor" id="valor" autocomplete="off" placeholder="Digite o valor">
+				<textarea style="transform: translateX(56px)" rows="4" type="text" name="descricao" id="descricao" autocomplete="off" placeholder="Digite a descricao do item"></textarea>
+				<input type="file" name="imagem" id="imagem">
+
+				<a href="#" title="voltar" class="voltar" style="left: 90px"><i class="fa fa-arrow-left" aria-hidden="true"></i>Voltar</a>
+				<input type="button" value="Adicionar" id="adicionar">
 			</form>
-			<a href="" title="Voltar" class="voltar" style="left: 90px"><i class="fa fa-arrow-left" aria-hidden="true"></i>Voltar</a>
-			<a type="submit" href="" title="Confirmar" class="confirmar"><i class="fa fa-cutlery" aria-hidden="true"></i>Confirmar</a>
+			<a id="notifica" style="color: green; margin-left:55px; font-weight: 800"></a>
 		</div>
 		
 	</div>
