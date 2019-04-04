@@ -107,7 +107,7 @@ class Usuario {
 			case 'admin':
 				header("Location: index.php");
 				break;
-			case 'chef':
+			case 'cozinha':
 				header("Location: tela_pedidos.php");
 				break;
 			default:
