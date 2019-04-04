@@ -1,57 +1,107 @@
 <?php
+
+	include 'dbh.php';
 	require_once("config.php");
-	$item_qtd = 0;
-	
+		
  ?>
 
 <!DOCTYPE html>
  <html>
  <head> 	
- 	<title>Cardápio</title>
+	<title>Cardápio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/csCs?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=2.0">
+	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
  <body class="fundo-cardapio">
+ 	
+	<script>
+		var tipo_idtipo = '1';
+		function puxa_dados(tipo_idetipo){
+			var id = tipo_idtipo;
+			$.post("carregar_itens.php",{ tipo_idtipo: id })
+				.done(function(dadosJSON){
+					var dados = JSON.parse(dadosJSON);
+					var html = '';
+					for(var i = 0; i < dados.length; i++) {
+						var nome = dados[i].nome;
+						var descricao = dados[i].descricao;
+						var valor = dados[i].valor;
+						var url_img = dados[i].url_img;
+						html += '<div class="item">';
+						html += '<img class="item-foto" src="' + url_img + '">';
+						html += '<div class="item-preco"><p>R$ ' + valor + '</p></div>';
+						html += '<button class="circulo-mais" id="mais">+</button>	<button class="circulo-menos" id ="menos">-</button>';
+						html += '<p class="item-titulo">' + nome + '</p>';
+						html += '<div class="item-descricao">' + descricao + '</div></div>';
+					}
+					$('#itens').html(html);
+					console.log(dados);
+				})
+		}
+		$(document).ready(function() {
+			puxa_dados(tipo_idtipo);
+			$(".button-categoria").click(function (event) {
+				//deixa o botão clicado amarelo
+				$(this).addClass("button-categoria-active");
+
+				//Salva o id do botão clicado em tipo_idtipo
+				tipo_idtipo = event.target.id;
+
+				puxa_dados(tipo_idtipo);
+				
+				//Remove o amarelo ao clicar em outro botão
+				$(".button-categoria").not(this).removeClass("button-categoria-active");
+			});
+		});
+	</script>
+
 	<div class="container">
+
 		<div class="logo-cardapio"></div>
 
-		<button class="button-pedidos">
+		<a class="button-pedidos">
 			<img class="icone-recibo" src="documentacao/assets/icone-recibo.png" alt="">
-			<a href="#openModal">Pedidos</a>
-			<div class="circulo-numero"><p><?php echo $item_qtd ?></p></div>
-		</button>
+			<a id="pedidos">Pedidos</a>
+			<div class="circulo-numero"><p id="exibir_itens"></p></div>
+		</a>
+		<a href="#openModal" class="button-pedidos" style="background-color: transparent"></a>
 
 		<div class="container-categoria">
-			<div class="conteudo-categorias">
-				<button type=button class="button-categoria button-categoria-active" data-src="especialidades.php">Especialidades</button>
-				<button type=button class="button-categoria" data-src="carnes.php">Carnes</button>
-				<button type=button class="button-categoria" data-src="massas.php">Massas</button>
-				<button type=button class="button-categoria" data-src="acompanhamentos.php">Acompanhamentos</button>
-				<button type=button class="button-categoria" data-src="frutos_do_mar.php"> Frutos do Mar</button>
-				<button type=button class="button-categoria" data-src="sobremesas.php">Sobremesas</button>
-				<button type=button class="button-categoria" data-src="bebidas.php">Bebidas</button>
+			<div class="conteudo-categorias" id="categorias">
+				<?php
+					$sql = "SELECT * FROM tipo";
+					$result = mysqli_query($conn, $sql);
+					while($row = mysqli_fetch_assoc($result)) {		//Varre a tabela tipo e carrega as categorias nos botões
+						if ($row['idtipo'] == 1) {
+							echo '<button class="button-categoria button-categoria-active" id="';
+							echo $row['idtipo'];
+							echo '">';
+							echo $row['categoria'];
+							echo "</button>";
+						}else{
+							echo '<button class="button-categoria" id="';
+							echo $row['idtipo'];
+							echo '">';
+							echo $row['categoria'];
+							echo "</button>";
+						}
+					}
+				?>
 			</div>
 		</div>
+		
+		<div class="container-itens">
+			<div class="conteudo-itens" id="itens"></div>
+		</div>
 
-		<iframe class="container-itens" src="especialidades.php" name="ifrm" id="ifrm">
-		</iframe>
+		</div>
 
 	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<script>
-	$(document).ready(function() {
-		$(".button-categoria").click(function () {
-			$(this).addClass("button-categoria-active");
-			$("#ifrm").attr("src", $(this).data('src'));
-			$(".button-categoria").not(this).removeClass("button-categoria-active");
-		});
-
-
-	});
-	</script>
+	
 
 	<div id="openModal" class="modalDialog">
 		<div>
