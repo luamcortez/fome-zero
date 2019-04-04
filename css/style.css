@@ -435,7 +435,7 @@ button:focus {outline:0;}
   position: relative;
   background: #EBDACA;
   width: 600px;
-  height: 180px;
+  height: 220px;
   transform: translateY(100px);
 
 }
@@ -590,4 +590,39 @@ input[type=number]::-webkit-outer-spin-button {
 
 .fa{
   margin-right: 5px; 
+}
+
+
+/* Tela de Pedidos */
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto auto; 
+  padding: 20px;
+  grid-row-gap: 10px;
+  justify-content: safe;
+  align-content: space-evenly;
+  
+}
+
+
+.grid-item {
+  background-color: #FFF9DF;
+  border: none;
+  height: 300px;
+  width: 275px;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 16px;
+  zoom: 0.8;
+}
+
+.container-pedidos{
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  height: 570px;
+  width: 1024px;
+  zoom: 1;
 }
