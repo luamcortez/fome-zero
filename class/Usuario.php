@@ -105,10 +105,10 @@ class Usuario {
 	public function redirect ($login){ //METODO QUE REDIRECIONA O USUARIO PARA A DEVIDA PAGINA
 		switch($login){
 			case 'admin':
-				header("Location: index.php");
+				header("Location: menu.php");
 				break;
-			case 'chef':
-				header("Location: fila_pedidos.php");
+			case 'cozinha':
+				header("Location: tela_pedidos.php");
 				break;
 			default:
 				header("Location: cardapio.php");

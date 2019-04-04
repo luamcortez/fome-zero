@@ -1,28 +1,51 @@
-<?php
-
+<?php 
+	// session_start();
 	require_once("config.php");
-/*	session_start();
 
-	$usuario = new Usuario();
-	$usuario->verSession();*/
+	//$sql = new Sql();
+	//$usuarios = $sql->select("SELECT * FROM login");
+	//echo json_encode($usuarios);	
 
- ?>
- 
-  <!DOCTYPE html>
+	//$user = new Usuario();
+	//$user->loadById(2);	
+	//echo $user;
+
+	//$lista = Usuario::getList();
+	//echo json_encode($lista);
+
+	//$search = Usuario::search("a");
+	//echo json_encode($search);
+
+	//$usuario = new Usuario();
+	//$usuario->auth("lucas", "1234");
+	//echo $usuario;
+	
+	if (isset($_POST["login"]) && isset($_POST["senha"])) {
+
+		$authlogin = $_POST["login"];
+		$authsenha = $_POST["senha"];
+
+		$usuario = new Usuario();
+		$usuario->auth($authlogin, $authsenha);
+		echo $usuario;
+	}
+
+?>
+
+ <!DOCTYPE html>
  <html>
  <head> 	
- 	<title>Menu</title>
- 	<link rel="stylesheet" type="text/css" href="css/reseter.css">
+ 	<title>Tela de Login</title>
  	<link rel="stylesheet" type="text/css" href="css/style.css">
- 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
  </head>
  <body>
 	<div class="retangulo">
 		<img src="images/logo.png" class="logo_login"/>
-		<form id="menu" name="login" method="GET">
-			<a class="button_login" href="tela_pedidos.php">FILA DE PEDIDOS</a>
-			<a class="button_login" href="cardapio.php">CARDÁPIO</a>	
-			<a class="button_login" href="editar_cardapio.php">EDITAR CARDAPIO</a>		
+		<form name="login" method="POST">
+			<input type="text" placeholder="Usuário" name="login">
+			<input type="password" placeholder="Senha" name="senha">	
+			<button style="height: 50px;" type="submit" name="enviar" class="button_login">ENTRAR</button>		
 		</form>
 	</div> 
  </body>
