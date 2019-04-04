@@ -16,35 +16,121 @@
  </head>
 
  <body>
-	<div class="grid-container">
-		<div class="grid-item">1
 
-		</div>
-  		<div class="grid-item">2
+	<div class="container-pedidos">
+		<div class="grid-container">
 
-		</div>
-  		<div class="grid-item">3
 
-		</div>  
-  		<div class="grid-item">4
 
-		</div>
-  		<div class="grid-item">5
 
-		</div>
-  		<div class="grid-item">6
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+			<div class="grid-item">
+				<h1 class="numPedido">Pedido 3056</h1><h1 class="horario">12:30</h1>
+
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+				<div>	<h1 class="qtd">1</h1><h2 class="nome">Frango a Milanesa</h2>	</div>
+			</div>
+
+
+
 
 		</div> 
-		<div class="grid-item">7
-
-		</div>
-		<div class="grid-item">8
-			
-		</div>
-		
-
-		 
-		
-	</div> 
+	</div>
  </body>
  </html>

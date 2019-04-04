@@ -607,22 +607,78 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 .grid-item {
+
   background-color: #FFF9DF;
   border: none;
   height: 300px;
   width: 275px;
-  padding: 0;
+  padding: 5px;
   font-size: 30px;
-  text-align: center;
   border-radius: 16px;
   zoom: 0.8;
+  transform: translateY(25px);
 }
 
+
+.grid-item > div {
+  position: relative;
+  display: block;
+  left: 5px;
+  top: 40px;
+  height: 30px;
+  width: 260px;
+}
+
+
 .container-pedidos{
+
   position: absolute;
-  top: 5px;
-  left: 100px;
-  height: 570px;
+  background-color: rgba(240, 248, 255, 0.15);
+  height: 576px;
   width: 1024px;
-  zoom: 1;
+  left: 50%;
+  margin-left: -512px;
+  top: 50%;
+  margin-top: -288px;
+  justify-items: center;
+  vertical-align: center;
+  
+}
+
+.numPedido{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+  font-size: 0.9em;
+  padding-left: 8px;
+  padding-top: 5px;
+  display: inline;
+  float: left;
+}
+
+.horario{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+  font-size: 0.8em;
+  color: rgb(82, 82, 170);
+  padding-right: 8px;
+  padding-top: 5px;
+  display: inline;
+  float: right;
+}
+
+.qtd{
+  font-size: 0.8em;
+  font-weight: 800;
+  display: inline;
+  left: 3px;
+  top: 5px;
+  position: absolute;
+}
+
+.nome{
+  font-size: 0.8em;
+  display: inline;
+  left: 30px;
+  top: 5px;
+  position: absolute;
 }
